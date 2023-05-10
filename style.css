@@ -1,0 +1,114 @@
+.rojo {
+  background-color: #ff0000;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.azul {
+  background-color: #0000ff;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.verde {
+  background-color: green;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amarillo {
+  background-color: yellow;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rosa {
+  background-color: pink;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.celeste {
+  background-color: lightsteelblue;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.violeta {
+  background-color: violet;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.naranja {
+  background-color: rgb(255, 128, 0);
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.negro {
+  background-color: black;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.marron {
+  background-color: brown;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+  
+}
+
+
+@media screen and (max-width: 768px) {
+  .contenedor {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contenedor {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+ @media screen and (max-width: 320px) {
+  .contenedor {
+    grid-template-columns: 1fr
+  }
+}
